@@ -1,0 +1,81 @@
+/*
+theme : Blog Geisson
+author: Geisson Machado Antunes <geisonnm@hotmail.com>
+github: https://github.com/geison20
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+/* perfil top layout*/
+#combo-perfil {
+  padding: 10px;
+  display: flex;
+  background: #1e88e5 ;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+#combo-perfil img {
+  width: 100%;
+  max-width: 80px;
+  border-radius: 100%;
+}
+
+#combo-perfil ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px;
+}
+
+#combo-perfil h1 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: normal;
+  font-family: 'Lato', sans-serif;
+}
+
+#combo-perfil p {
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+}
+
+
+#site-nav {
+  background: blue;
+}
+
+#page-content {
+  background-color: #cecece;
+  min-height: 100vh;
+}
+footer {
+  background-color: green;
+}
+
+
+
+
+
+/* MIDIA QUERY*/

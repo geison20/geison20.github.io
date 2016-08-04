@@ -1,17 +1,33 @@
 
 #meta
-language: "pt-br"
+language: pt-br
 title-site: Blog de tecnologia e afins
 author: Gêisson Machado Antunes
 email: geisonnm@hotmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: Visite meu blog pessoal cheio de notícias, artigos e fontes relacionados a desenvolvimento de softwares e muito mais!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://geissonmachado.com.br" # the base hostname & protocol for your site
+url:  "http://localhost:4000" #"http://geissonmachado.com.br" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+# Assets directory
+css: /assets/css/main.css
+
+
+# header configuration
+site-name-header: Gêisson Machado Antunes
+site-description-header: Devoloper | Mobile | Application | SEO
+perfil-icon: http://www.portalworkbook.com.br/static/admin/img/img_perfil.jpg
+social-icons:
+  - icon: github
+    link: github/
+    icon-path: fa fa-github-square fa-2x
+  - icon: linkedin
+    link: linkedin/
+    icon-path: fa fa-linkedin-square fa-2x
+  - icon: facebook
+    link: facebook/
+    icon-path: fa fa-facebook-square fa-2x
