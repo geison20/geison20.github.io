@@ -7,7 +7,7 @@ email: geisonnm@hotmail.com
 description: Visite meu blog pessoal cheio de notícias, artigos e fontes relacionados a desenvolvimento de softwares e muito mais!
 baseurl: "" # the subpath of your site, e.g. /blog
 excerpt_separator: <!-- leia-mais --> # usado para quebar a description inicial do post
-url:   "http://localhost:4000" #"http://localhost:4000" "http://geissonmachado.com.br" # the base hostname & protocol for your site
+url:   "http://geissonmachado.com.br" #"http://localhost:4000" "http://geissonmachado.com.br" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
