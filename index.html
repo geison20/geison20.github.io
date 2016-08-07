@@ -14,9 +14,8 @@ title: Home
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    {{ content }}
+    {{ post.excerpt }}
   </div>
-
 
   <footer class="post-footer">
       <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
