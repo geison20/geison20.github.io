@@ -6,12 +6,15 @@
   <meta name="robots" content="index, follow">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
   <link rel="alternate" type="application/rss+xml" title="{{ site.title-site }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
   <title>{% if page.title %}{{ page.title | escape }} - {{ site.title-site | escape }} - {{ site.author }}{% endif %}</title>
 
   <!-- Import CSS -->
   <link rel="stylesheet" href="{{ site.css | prepend: site.url }}">
-  
+
+  <!-- import font lato -->
+  <link href="https://fonts.googleapis.com/css?family=Lato"/>
 
 </head>

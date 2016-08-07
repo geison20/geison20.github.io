@@ -1,0 +1,9 @@
+  <nav class="sidebar">
+    <ul>
+      {% for page in site.pages %}
+      {% if page.title %}
+      <li><a href="{{ page.url | prepend: site.baseurl }}" class="font-lato">{{ page.title }}</a></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>

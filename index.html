@@ -3,22 +3,28 @@ layout: default
 title: Home
 ---
 
-<!-- <div class="home">
+<h1 class="post-header-title font-lato">Últimos Posts</h1>
 
-  <h1 class="page-heading">Últimas postagens</h1>
+{% for post in site.posts %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<article class="post-article font-lato" itemscope itemtype="http://schema.org/BlogPosting">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <header class="post-header">
+    <h1 itemprop="name headline"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+  </header>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
 
-</div> -->
+
+  <footer class="post-footer">
+      <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
+      {% if post.author %}
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>
+      {% endif %}
+  </footer>
+
+</article>
+
+{% endfor %}
