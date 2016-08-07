@@ -3,25 +3,25 @@ layout: default
 title: Home
 ---
 
-<h1 class="post-header-title font-lato">Últimos Posts</h1>
-
 {% for post in site.posts %}
 
-<article class="post-article font-lato" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="posts-article font-lato" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
+  <header class="posts-header">
     <h1 itemprop="name headline"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
   </header>
 
-  <div class="post-content" itemprop="articleBody">
+  <div class="posts-content" itemprop="articleBody">
     {{ post.excerpt }}
   </div>
 
-  <footer class="post-footer">
+  <footer class="posts-footer">
+      Postado por:
+      <figure>
+        <img class="thumbnail-perfil-footer" src="{{ site.url }}{{ site.image }}{{ post.thumbnail-author }}" alt="thumbnail de perfil" />
+      </figure>
+      <p itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></p>
       <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
-      {% if post.author %}
-      <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>
-      {% endif %}
   </footer>
 
 </article>

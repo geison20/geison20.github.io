@@ -1,8 +1,15 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2016-02-01 21:07:05 -0300
-categories: jekyll update
+date:   2016-02-01
+categories: code
+thumbnail-author: perfil.png
+tags:
+  - Code
+  - desenvolvimento
+  - conceito
+  - lorem Ipsum
+  - outras coisas
 ---
 
 Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Manduma pindureta quium dia nois paga. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Leite de capivaris, leite de mula manquis.

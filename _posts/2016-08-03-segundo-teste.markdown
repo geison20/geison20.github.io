@@ -1,8 +1,15 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2016-01-01 21:07:05 -0300
-categories: jekyll update
+date:   2016-01-01
+categories: Desktop
+thumbnail-author: perfil.png
+tags:
+  - Code
+  - desenvolvimento
+  - conceito
+  - lorem Ipsum
+  - outras coisas
 ---
 
 

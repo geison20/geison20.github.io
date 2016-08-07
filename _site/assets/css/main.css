@@ -70,7 +70,7 @@ ul li { list-style: none;}
 
 
 /*
-  POSTS
+  POSTS LAYOUT ALL
 */
 
 .posts {
@@ -79,41 +79,62 @@ ul li { list-style: none;}
   align-items: center;
   background-color: #fff;
 }
-.post-header-title {
-  color: #263238;
-  display: flex;
-  flex-flow: column wrap;
-  align-self: flex-start;
-  padding: 20px 10px 0;
-
-}
-.post-article {
+.posts-article {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  padding: 10px;
+  margin: 20px 10px;
 
 }
-.post-header {
+.posts-header {
   display: flex;
   flex-flow: row nowrap;
   align-self: flex-start;
   margin-left: 10px;
 }
-.post-header a {
+.posts-header a {
   color: #1976d2;
+  font-size: 1.2em;
+  border-bottom: 3px solid #1976d2;
 }
-.post-content {
+.posts-content {
   display: flex;
   flex-flow: column wrap;
-  padding: 10px;
+  margin: 10px;
   text-align: justify;
 }
-.post-footer {
+.posts-footer {
   display: flex;
   flex-flow: column wrap;
   text-align: center;
+  text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 3px;
+
 }
+.thumbnail-perfil-footer {
+  width: 100%;
+  max-width: 70px;
+  border-radius: 100%;
+}
+
+/*
+  POST UNIQUE PAGE
+*/
+.post {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.post-header {
+  display: flex;
+  flex-flow: column nowrap;
+  align-self: flex-start;
+  padding: 10px;
+  color: #263238;
+  font-size: 20px;
+}
+
 
 /*
   FOOTER
@@ -123,8 +144,10 @@ ul li { list-style: none;}
   flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
-  height: 80px;
-  background-color: #1e88e5;
+  height: 40px;
+}
+.footer a {
+  color: #428bca;
 }
 
 
