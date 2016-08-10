@@ -55,27 +55,20 @@ body { background-color: rgb(238, 238, 238);}
 /*
     MENU MOBLIE
 */
+.content-2 {
+  display: flex;
+  flex-flow: column nowrap;
+}
 
 /* navbar */
-.sidebar {
-  background-color: #00796b;
-}
-
-.sidebar ul li {
-  display: inline-block;
-  text-align: center;
-  margin: 10px;
-}
+.sidebar { text-align: center; }
+.sidebar ul li { padding: 20px 0; background-color: #00796b ; transition: background-color 0.5s ease-out;}
 
 
 /*
   POSTS LAYOUT ALL
 */
 
-.content-2 {
-  display: flex;
-  flex-flow: column wrap;
-}
 .posts-article {
   margin: 20px 10px;
   background-color: #fff;
@@ -85,9 +78,8 @@ body { background-color: rgb(238, 238, 238);}
   color: #333;
   font-size: 1.1em;
 }
-.posts-header {
-  margin: 10px;
-}
+.posts-header { margin: 10px; }
+
 .informations  {
   margin: 10px 0;
   text-align:left;
@@ -110,20 +102,14 @@ body { background-color: rgb(238, 238, 238);}
   margin: 10px;
 }
 .posts-footer {
-  display: flex;
-  flex-flow: column wrap;
   text-align: center;
   text-transform: uppercase;
 	font-size: 14px;
 	letter-spacing: 3px;
   padding: 10px;
   background-color: #00796b;
-}
-.posts-footer h1 a {
-
   color: #fff;
 }
-
 /*
   POST UNIQUE PAGE
 */
@@ -175,8 +161,6 @@ body { background-color: rgb(238, 238, 238);}
 */
 
 
-
-
 /*
   WEB LAYOUT
 */
@@ -184,24 +168,25 @@ body { background-color: rgb(238, 238, 238);}
 /* MIDIA QUERY*/
 @media screen and (min-width: 768px){
 
+  .sidebar ul li:hover { transition: background-color 0.5s ease; background-color: #00695c;}
+
   .content-1 {
     display: flex;
     flex-flow: column wrap;
-    background-color: #1e88e5;
   }
   .content-2 {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
+    max-width: 1000px;
+    margin: 0 auto;
   }
   .posts-article {
     order: 1;
-    max-width: 800px;
   }
   .sidebar {
     order: 2;
     flex: 1 1 200px;
     margin: 20px;
-    text-align: center;
   }
   .content-posts {
     display: flex;
@@ -209,7 +194,7 @@ body { background-color: rgb(238, 238, 238);}
     flex: 5 1 400px;
     align-items: center;
   }
-  .footer{
+  .footer {
     order: 3;
     flex: 1 1 200px;
   }

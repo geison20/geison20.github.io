@@ -8,14 +8,15 @@
 
       <section class="content-1">
         {% include header.html %}
-
       </section>
 
       <section class="content-2">
+        <nav class="sidebar">
+          {% include sidebar.html %}
+        </nav>
         <div class="content-posts">
           {{ content }}
         </div>
-        {% include sidebar.html %}
 
       </section>
 
