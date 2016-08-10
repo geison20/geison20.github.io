@@ -2,8 +2,8 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2016-01-01
+author: Geisson Machado Antunes
 categories: Desktop
-thumbnail-author: perfil.png
 tags:
   - Code
   - desenvolvimento

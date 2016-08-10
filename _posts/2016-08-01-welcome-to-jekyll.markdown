@@ -4,7 +4,6 @@ title:  "Desenvolvendo um blog com jekkly quebra de linha teste"
 date:   2016-05-03
 author: Geisson Machado Antunes
 categories: Code
-thumbnail-author: perfil.png
 tags:
   - Code
   - desenvolvimento

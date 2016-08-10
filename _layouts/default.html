@@ -4,20 +4,20 @@
   {% include head.html %}
 
   <body>
-    <main role="main">
+    <main role="main" class="container">
 
-    {% include header.html %}
+      <section class="content-1">
+        {% include header.html %}
 
-    {% include sidebar.html %}
+        {% include sidebar.html %}
+      </section>
 
-    <section class="posts" >
-      {{ content }}
-    </section>
+      <section class="content-2">
+        {{ content }}
+        {% include footer.html %}
 
+      </section>
 
-    <hr>
-    
-    {% include footer.html %}
 
     </main>
   </body>

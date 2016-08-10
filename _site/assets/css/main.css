@@ -13,6 +13,7 @@ body, section, footer, main, header, article,
 h1, h2, h3, h4, h5, h6, p, a, ul, li { margin: 0; padding: 0; }
 a { text-decoration: none; color: #fff; }
 ul li { list-style: none;}
+body { background-color: rgb(238, 238, 238)}
 .font-lato { font-family: 'Lato', arial, sans-serif; }
 
 
@@ -22,11 +23,11 @@ ul li { list-style: none;}
 
 /* perfil top layout */
 .combo-perfil {
-  padding: 25px ;
   display: flex;
-  background: #1e88e5 ;
-  flex-flow: column wrap;
   align-items: center;
+  flex-flow: column wrap;
+  padding: 25px ;
+  background: #1e88e5 ;
 }
 
 .combo-perfil img {
@@ -73,35 +74,41 @@ ul li { list-style: none;}
   POSTS LAYOUT ALL
 */
 
-.posts {
+.content-2 {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  background-color: #fff;
 }
 .posts-article {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
   margin: 20px 10px;
-
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
 }
 .posts-header {
-  display: flex;
-  flex-flow: row nowrap;
-  align-self: flex-start;
-  margin-left: 10px;
+  margin: 10px;
+}
+.informations  {
+  margin: 10px 0;
+  text-align:left;
+  text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 3px;
+  color: #828282;
+}
+.informations p {
+  margin-top: 10px;
 }
 .posts-header a {
   color: #1976d2;
   font-size: 1.2em;
-  border-bottom: 3px solid #1976d2;
 }
 .posts-content {
   display: flex;
   flex-flow: column wrap;
-  margin: 10px;
   text-align: justify;
+  margin: 10px;
 }
 .posts-footer {
   display: flex;
@@ -110,12 +117,12 @@ ul li { list-style: none;}
   text-transform: uppercase;
 	font-size: 14px;
 	letter-spacing: 3px;
-
+  padding: 10px;
+  background-color: #f6f6f6;
 }
-.thumbnail-perfil-footer {
-  width: 100%;
-  max-width: 70px;
-  border-radius: 100%;
+.posts-footer h1 a {
+  
+  color: #263238;
 }
 
 /*
@@ -164,16 +171,39 @@ ul li { list-style: none;}
 }
 
 
+/*
+  END MOBILE LAYOUT
+*/
 
 
 
 
-
+/*
+  WEB LAYOUT
+*/
 
 /* MIDIA QUERY*/
-/*@media all and (min-width: 768px){
-  #combo-perfil img {
-    width: 100%;
-    max-width:200px;
+@media screen and (min-width: 768px){
+
+  .container {
+    display: flex;
+    flex-flow: row nowrap;
   }
-}*/
+  .content-1 {
+    display: flex;
+    flex-flow: column wrap;
+    order: 1;
+    flex: 1 1 20%;
+    background-color: #1e88e5;
+  }
+  .content-2 {
+    display: flex;
+    flex-flow: column nowrap;
+    order: 2;
+    flex: 1 1 80%;
+  }
+  .posts-article {
+    max-width: 500px;
+  }
+
+}

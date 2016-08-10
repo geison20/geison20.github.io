@@ -9,6 +9,11 @@ title: Home
 
   <header class="posts-header">
     <h1 itemprop="name headline"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+
+    <div class="informations">
+      <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%b %-d, %Y" }}</time>
+      <p itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><i class="fa fa-user" aria-hidden="true"></i> {{ post.author }}</span></p>
+    </div>
   </header>
 
   <div class="posts-content" itemprop="articleBody">
@@ -16,12 +21,7 @@ title: Home
   </div>
 
   <footer class="posts-footer">
-      Postado por:
-      <figure>
-        <img class="thumbnail-perfil-footer" src="{{ site.url }}{{ site.image }}{{ post.thumbnail-author }}" alt="thumbnail de perfil" />
-      </figure>
-      <p itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></p>
-      <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
+    <h1><a href="#">leia mais</a></h1>
   </footer>
 
 </article>
