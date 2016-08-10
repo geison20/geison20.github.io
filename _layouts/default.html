@@ -9,15 +9,17 @@
       <section class="content-1">
         {% include header.html %}
 
-        {% include sidebar.html %}
       </section>
 
       <section class="content-2">
-        {{ content }}
-        {% include footer.html %}
+        <div class="content-posts">
+          {{ content }}
+        </div>
+        {% include sidebar.html %}
 
       </section>
 
+      {% include footer.html %}
 
     </main>
   </body>
