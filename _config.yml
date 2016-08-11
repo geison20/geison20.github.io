@@ -16,8 +16,8 @@ excerpt_separator: <!-- leia-mais --> # usado para quebar a description inicial 
 timezone: America/Sao_Paulo
 
 # Assets directory
-css: /assets/css/main.css
-image: /assets/image/
+css: /static/css/main.css
+image: /static/image/
 
 #pagination
 #paginate: 2
