@@ -6,3 +6,10 @@
       {% endif %}
       {% endfor %}
     </ul>
+
+    <p>
+      content plus
+      {% for file in site.static_files %}
+        {{file.path}}
+      {% endfor %}
+    </p>

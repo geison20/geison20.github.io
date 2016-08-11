@@ -1,0 +1,22 @@
+{
+  "name": "geison20.github.io",
+  "homepage": "https://github.com/geison20/geison20.github.io",
+  "authors": [
+    "Geisson <geisonnm@hotmail.com>"
+  ],
+  "description": "my personal blog",
+  "main": "index.html",
+  "keywords": [
+    "blog",
+    "personal"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
