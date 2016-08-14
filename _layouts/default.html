@@ -8,13 +8,13 @@
 
       <section class="content-1" role="heading">
         {% include header.html %}
-        {% include sidebar.html %}
       </section>
 
       <section class="content-2" role="article">
 
         <div class="content-posts font-lato">
           {{ content }}
+          {% include pagination.html %}
         </div>
 
         <section class="content-3">

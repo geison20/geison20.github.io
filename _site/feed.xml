@@ -5,8 +5,8 @@
     <description>Visite meu blog pessoal cheio de notícias, artigos e fontes relacionados a desenvolvimento de softwares e muito mais!</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 14 Aug 2016 15:01:25 -0300</pubDate>
-    <lastBuildDate>Sun, 14 Aug 2016 15:01:25 -0300</lastBuildDate>
+    <pubDate>Sun, 14 Aug 2016 16:57:47 -0300</pubDate>
+    <lastBuildDate>Sun, 14 Aug 2016 16:57:47 -0300</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -61,6 +61,57 @@ Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iacu
         
         
         <category>Code</category>
+        
+      </item>
+    
+      <item>
+        <title>Desenvolvendo um blog com jekkly quebra de linha teste</title>
+        <description>&lt;p&gt;Mussum Ipsum, cacilds vidis litro abertis. Ta deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.” Sapien in monti palavris qui num significa nadis i pareci latim. Atirei o pau no gatis, per gatis num morreus. Copo furadis é disculpa de bebadis, arcu quam euismod magna.
+&lt;!-- leia-mais --&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 03 May 2016 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/code/2016/05/03/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/code/2016/05/03/welcome-to-jekyll.html</guid>
+        
+        <category>Code</category>
+        
+        <category>desenvolvimento</category>
+        
+        <category>conceito</category>
+        
+        <category>lorem Ipsum</category>
+        
+        <category>outras coisas</category>
+        
+        
+        <category>Code</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Manduma pindureta quium dia nois paga. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Leite de capivaris, leite de mula manquis.
+&lt;!-- leia-mais --&gt;&lt;/p&gt;
+
+&lt;p&gt;Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Viva Forevis aptent taciti sociosqu ad litora torquent Atirei o pau no gatis, per gatis num morreus. Delegadis gente finis, bibendum egestas augue arcu ut est.
+Ta deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.” Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Quem manda na minha terra sou Euzis! Casamentiss faiz malandris se pirulitá.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Feb 2016 00:00:00 -0200</pubDate>
+        <link>http://localhost:4000/code/2016/02/01/primeiro-teste.html</link>
+        <guid isPermaLink="true">http://localhost:4000/code/2016/02/01/primeiro-teste.html</guid>
+        
+        <category>Code</category>
+        
+        <category>desenvolvimento</category>
+        
+        <category>conceito</category>
+        
+        <category>lorem Ipsum</category>
+        
+        <category>outras coisas</category>
+        
+        
+        <category>code</category>
         
       </item>
     

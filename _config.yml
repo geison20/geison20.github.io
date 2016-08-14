@@ -24,20 +24,6 @@ gems: [jekyll-paginate]
 paginate: 5
 paginate_path: "/posts/pagina:num/"
 
-# nav configuration
-navs:
-  - label: Blog
-    href: /
-    icon: fa fa-home fa-lg
-
-  - label: Sobre
-    href: /sobre
-    icon: fa fa-user fa-lg
-
-  - label: Projetos
-    href: /projetos
-    icon:
-
 # header configuration
 site-name-header: Gêisson Machado Antunes
 site-description-header: Devoloper | Mobile | Application | SEO

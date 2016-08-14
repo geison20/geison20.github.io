@@ -1,29 +1,29 @@
 <!-- Pagination links -->
 {% if paginator.total_pages > 1 %}
+
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button-pagination pull-left" >Anterior</a>
   {% else %}
-    <span>&laquo; Prev</span>
+    <a style="display:none" >Atual</a>
   {% endif %}
 
-  {% for page in (1..paginator.total_pages) %}
+  <div class="text-center">
+    {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-      <em>{{ page }}</em>
+    <em class="selected">{{ page }}</em>
     {% elsif page == 1 %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next" >{{ page }}</a>
     {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="next">{{ page }}</a>
     {% endif %}
-  {% endfor %}
+    {% endfor %}
 
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-  {% else %}
-    <span>Next &raquo;</span>
-  {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button-pagination pull-right">Próximo</a>
+    {% else %}
+    <a style="display:none" >Atual</a>
+    {% endif %}
+  </div>
 </div>
 {% endif %}
-
-
-{% include pagination.html %}
