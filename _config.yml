@@ -6,7 +6,7 @@ author: Gêisson Machado Antunes
 email: geisonnm@hotmail.com
 description: Visite meu blog pessoal cheio de notícias, artigos e fontes relacionados a desenvolvimento de softwares e muito mais!
 baseurl: "" # the subpath of your site, e.g. /blog
-url:   "http://localhost:4000" #"http://localhost:4000" "http://geissonmachado.com.br" # the base hostname & protocol for your site
+url:   "http://geissonmachado.com.br" #"http://localhost:4000" "http://geissonmachado.com.br" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -21,7 +21,22 @@ image: /static/image/
 gems: [jekyll-paginate]
 
 #pagination
-paginate: 2
+paginate: 5
+paginate_path: "/posts/pagina:num/"
+
+# nav configuration
+navs:
+  - label: Blog
+    href: /
+    icon: fa fa-home fa-lg
+
+  - label: Sobre
+    href: /sobre
+    icon: fa fa-user fa-lg
+
+  - label: Projetos
+    href: /projetos
+    icon:
 
 # header configuration
 site-name-header: Gêisson Machado Antunes

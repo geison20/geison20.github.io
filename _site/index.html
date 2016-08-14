@@ -28,7 +28,7 @@
   <body>
     <main role="main" class="container">
 
-      <section class="content-1">
+      <section class="content-1" role="heading">
         <header>
   <div class="combo-perfil">
     <a href="http://localhost:4000"><img src="http://localhost:4000/static/image/perfil.png" alt="foto do perfil" /></a>
@@ -48,51 +48,32 @@
   </div>
 </header>
 
-      </section>
-
-      <section class="content-2">
-        <nav class="sidebar">
-          
+        <nav class="sidebar" role="navigation">
     <ul>
       
+        
+          <li><a href="/" class="font-lato"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Blog</a></li>
+        
       
+        
+          <li><a href="/sobre" class="font-lato"><i class="fa fa-user fa-lg" aria-hidden="true"></i> Sobre</a></li>
+        
       
-      
-      <li><a href="/RSS/" class="font-lato"><i class="fa fa-rss-square fa-lg" aria-hidden="true"></i> RSS</a></li>
-      
-      
-      
-      <li><a href="/about/" class="font-lato"><i class="fa fa-user fa-lg" aria-hidden="true"></i> Sobre</a></li>
-      
-      
-      
-      <li><a href="/" class="font-lato"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Blog</a></li>
-      
-      
-      
-      <li><a href="/page2/" class="font-lato"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Blog</a></li>
-      
+        
+          <li><a href="/projetos" class="font-lato"><i class="" aria-hidden="true"></i> Projetos</a></li>
+        
       
     </ul>
+</nav>
 
-    <p>
-      
-      Desenvolvendo um blog com jekkly quebra de linha teste
-      <!-- content plus ++ -->
-      
-      Welcome to Jekyll!
-      <!-- content plus ++ -->
-      
-      Welcome to Jekyll!
-      <!-- content plus ++ -->
-      
-    </p>
+      </section>
 
-        </nav>
-        <div class="content-posts">
+      <section class="content-2" role="article">
+
+        <div class="content-posts font-lato">
           
 
-<article class="posts-article font-lato" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="posts-article" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="posts-header">
     <h1 itemprop="name headline"><a href="/mobile/2016/05/20/terceiro-teste.html">Welcome to Jekyll!</a></h1>
@@ -117,7 +98,7 @@
 
 
 
-<article class="posts-article font-lato" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="posts-article" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="posts-header">
     <h1 itemprop="name headline"><a href="/code/2016/05/03/welcome-to-jekyll.html">Desenvolvendo um blog com jekkly quebra de linha teste</a></h1>
@@ -142,27 +123,69 @@
 
 
 
-<!-- Pagination links -->
-<div class="pagination">
-  
-    <span class="previous">Previous</span>
-  
-  <span class="page_number ">Page: 1 of 2</span>
-  
-    <a href="/page2" class="next">Next</a>
-  
-</div>
+<article class="posts-article" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="posts-header">
+    <h1 itemprop="name headline"><a href="/code/2016/02/01/primeiro-teste.html">Welcome to Jekyll!</a></h1>
+
+    <div class="informations">
+      <time datetime="2016-02-01T00:00:00-02:00" itemprop="datePublished"><i class="fa fa-calendar" aria-hidden="true"></i> Feb 1, 2016</time>
+      <p itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><i class="fa fa-user" aria-hidden="true"></i> Geisson Machado Antunes</span></p>
+    </div>
+  </header>
+
+  <div class="posts-content" itemprop="articleBody">
+    <p>Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Manduma pindureta quium dia nois paga. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Leite de capivaris, leite de mula manquis.</p>
+
+
+  </div>
+
+  <footer class="posts-footer">
+    <h1><a href="/code/2016/02/01/primeiro-teste.html">Leia Mais</a></h1>
+  </footer>
+
+</article>
+
+
+
+<article class="posts-article" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="posts-header">
+    <h1 itemprop="name headline"><a href="/desktop/2016/01/01/segundo-teste.html">Welcome to Jekyll!</a></h1>
+
+    <div class="informations">
+      <time datetime="2016-01-01T00:00:00-02:00" itemprop="datePublished"><i class="fa fa-calendar" aria-hidden="true"></i> Jan 1, 2016</time>
+      <p itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><i class="fa fa-user" aria-hidden="true"></i> Geisson Machado Antunes</span></p>
+    </div>
+  </header>
+
+  <div class="posts-content" itemprop="articleBody">
+    <p>Mussum Ipsum, cacilds vidis litro abertis. Atirei o pau no gatis, per gatis num morreus. Ta deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.” Leite de capivaris, leite de mula manquis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!</p>
+
+
+  </div>
+
+  <footer class="posts-footer">
+    <h1><a href="/desktop/2016/01/01/segundo-teste.html">Leia Mais</a></h1>
+  </footer>
+
+</article>
+
+
 
         </div>
 
-      </section>
-
-      <footer class="footer font-lato">
+        <section class="content-3">
+          <footer class="font-lato">
 
 <p>
     <strong><small>© 2016 Powered by Jekyll. Theme: by <a href="http://www.geissonmachado.com.br">Gêisson Machado Antunes</a></small></strong>.
 </p>
 </footer>
+
+        </section>
+
+      </section>
 
 
     </main>

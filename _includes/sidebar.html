@@ -1,15 +1,9 @@
-
+<nav class="sidebar" role="navigation">
     <ul>
-      {% for page in site.pages %}
-      {% if page.title %}
-      <li><a href="{{ page.url | prepend: site.baseurl }}" class="font-lato"><i class="{{ page.icon }}" aria-hidden="true"></i> {{ page.title }}</a></li>
-      {% endif %}
+      {% for page in site.navs %}
+        {% if page.label %}
+          <li><a href="{{ page.href | prepend: site.baseurl }}" class="font-lato"><i class="{{ page.icon }}" aria-hidden="true"></i> {{ page.label }}</a></li>
+        {% endif %}
       {% endfor %}
     </ul>
-
-    <p>
-      {% for teste in site.related_posts %}
-      {{ teste.title }}
-      <!-- content plus ++ -->
-      {% endfor %}
-    </p>
+</nav>

@@ -6,21 +6,23 @@
   <body>
     <main role="main" class="container">
 
-      <section class="content-1">
+      <section class="content-1" role="heading">
         {% include header.html %}
+        {% include sidebar.html %}
       </section>
 
-      <section class="content-2">
-        <nav class="sidebar">
-          {% include sidebar.html %}
-        </nav>
-        <div class="content-posts">
+      <section class="content-2" role="article">
+
+        <div class="content-posts font-lato">
           {{ content }}
         </div>
 
+        <section class="content-3">
+          {% include footer.html %}
+        </section>
+
       </section>
 
-      {% include footer.html %}
 
     </main>
   </body>
