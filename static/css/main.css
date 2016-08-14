@@ -13,7 +13,7 @@ body, section, footer, main, header, article,
 h1, h2, h3, h4, h5, h6, p, a, ul, li { margin: 0; padding: 0; }
 a { text-decoration: none; color: #fff; }
 ul li { list-style: none;}
-body { background-color: rgb(238, 238, 238);}
+body { background-color: #ddd}
 .font-lato { font-family: 'Lato', arial, sans-serif;}
 
 
@@ -62,7 +62,7 @@ body { background-color: rgb(238, 238, 238);}
 
 /* navbar */
 .sidebar { text-align: center; }
-.sidebar ul li { padding: 20px 0; background-color: #00796b ; transition: background-color 0.5s ease-out;}
+.sidebar ul li { background-color: #00796b; padding-top: 5px; border-bottom: 1px solid rgb(238, 238, 238);}
 
 
 /*
@@ -79,6 +79,8 @@ body { background-color: rgb(238, 238, 238);}
   font-size: 1.1em;
 }
 .posts-header { margin: 10px; }
+.posts-header h1{ padding: 10px 0 10px 30px; border-left: 5px solid #2ca6cb}
+.posts-header a { color: #2ca6cb; font-size: 1.2em; }
 
 .informations  {
   margin: 10px 0;
@@ -87,29 +89,21 @@ body { background-color: rgb(238, 238, 238);}
 	font-size: 14px;
 	letter-spacing: 3px;
   color: #828282;
+  padding: 15px 0;
+  border-bottom: 1px solid #cecece;
 }
 .informations p {
   margin-top: 10px;
 }
-.posts-header a {
-  color: #1976d2;
-  font-size: 1.2em;
-}
+
 .posts-content {
   display: flex;
   flex-flow: column wrap;
   text-align: justify;
   margin: 10px;
 }
-.posts-footer {
-  text-align: center;
-  text-transform: uppercase;
-	font-size: 14px;
-	letter-spacing: 3px;
-  padding: 10px;
-  background-color: #00796b;
-  color: #fff;
-}
+.posts-footer { text-align: left; text-transform: uppercase; font-size: 10px; letter-spacing: 3px; padding: 10px; color: #fff; margin: 5px 0;}
+.posts-footer a { background-color: #ddd; padding: 7px; border-radius: 100px; color: #817c7c; }
 /*
   POST UNIQUE PAGE
 */
@@ -167,8 +161,13 @@ body { background-color: rgb(238, 238, 238);}
 
 /* MIDIA QUERY*/
 @media screen and (min-width: 768px){
-
+  .sidebar ul li { padding: 20px 0; background-color: #00796b ; transition: background-color 0.5s ease-out;}
   .sidebar ul li:hover { transition: background-color 0.5s ease; background-color: #00695c;}
+
+  .posts-header a:hover { color: #f4511e; font-size: 1.2em; transition: color 0.5s  }
+
+  .posts-footer a:hover { background-color: #2ca6cb; padding: 7px; border-radius: 100px; color: #fff; transition: background-color 0.3s ease-out; }
+
 
   .content-1 {
     display: flex;
@@ -177,7 +176,7 @@ body { background-color: rgb(238, 238, 238);}
   .content-2 {
     display: flex;
     flex-flow: row wrap;
-    max-width: 1000px;
+    width: 80%;
     margin: 0 auto;
   }
   .posts-article {

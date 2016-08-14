@@ -8,8 +8,8 @@
     </ul>
 
     <p>
-      content plus
-      {% for file in site.static_files %}
-        {{file.path}}
+      {% for teste in site.related_posts %}
+      {{ teste.title }}
+      <!-- content plus ++ -->
       {% endfor %}
     </p>
