@@ -7,10 +7,10 @@ title: Blog
 
 <article class="posts-article" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="posts-header">
+  <header>
     <h1 itemprop="name headline"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
 
-    <div class="informations">
+    <div>
       <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%b %-d, %Y" }}</time>
       <p itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><i class="fa fa-user" aria-hidden="true"></i> {{ post.author }}</span></p>
     </div>
@@ -20,7 +20,7 @@ title: Blog
     {{ post.excerpt }}
   </div>
 
-  <footer class="posts-footer">
+  <footer>
     <h1><a href="{{ post.url | prepend: site.baseurl }}" class="button-pagination">Leia Mais</a></h1>
   </footer>
 

@@ -1,0 +1,109 @@
+
+
+.content-2 {
+  @extend .font-lato;
+
+  order: 2;
+
+  .content-posts {
+    background-color: $white;
+    border: 1px solid #e3e3e3;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    margin: 10px 5px;
+
+    .posts-article {
+      margin: 30px 5px;
+      font-size: 1.1em;
+
+      header {
+        margin: 10px;
+        h1 {
+          padding: 10px 0 10px 30px;
+          border-left: 5px solid #2ca6cb;
+          a {
+            color: #2ca6cb;
+            font-size: 1.2em;
+            &:hover {
+              color: #f4511e;
+              font-size: 1.2em;
+              transition: color 0.5s
+            }
+          }
+        }
+        div {
+          margin: 10px 0;
+          text-align:left;
+          text-transform: uppercase;
+        	font-size: 14px;
+        	letter-spacing: 3px;
+          color: #828282;
+          padding: 15px 0;
+          border-bottom: 1px solid #cecece;
+
+          p {
+            margin-top: 10px;
+          }
+        }
+      }
+      footer {
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 10px;
+        letter-spacing: 3px;
+        padding: 10px;
+        color: #fff; margin: 5px 0;
+      }
+      .posts-content {
+        text-align: justify;
+        margin: 10px;
+      }
+    }
+    .pagination {
+      padding: 20px;
+
+      .selected {
+        padding: 5px;
+        background-color:#2ca6cb;
+        border-radius: 3px;
+        color: #fff;
+      }
+      .next {
+        padding: 5px;
+        background-color:#cecece;
+        border-radius: 3px;
+        color: #fff;
+      }
+      .pull-left {
+        text-align: left;
+      }
+      .pull-right {
+        text-align: right;
+      }
+      .text-center {
+        text-align: center;
+        padding: 20px;
+      }
+    }
+  }
+  .content-3 {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: $white;
+    padding: 10px;
+
+    a {
+      color: #428bca;
+    }
+  }
+}
+
+@media screen and (min-width: 768px){
+  .content-2 {
+    flex-flow: column nowrap;
+    flex: 5 1 600px;
+
+    .content-posts { margin: 20px; }
+  }
+}

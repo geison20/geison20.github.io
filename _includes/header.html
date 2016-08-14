@@ -1,14 +1,14 @@
 <header>
   <div class="combo-perfil">
     <a href="{{ site.url }}"><img src="{{ site.image | prepend: site.url }}perfil.jpg" alt="foto do perfil" /></a>
-    <h1 class="font-lato name-header">{{ site.site-name-header }}</h1>
-    <p class="font-lato description-header" >{{  site.site-description-header }}</p>
+    <h1>{{ site.site-name-header }}</h1>
+    <p>{{  site.site-description-header }}</p>
     <p>
       <code>geisonnm@hotmail.com</code>
     </p>
-    <ul class="social-buttons">
+    <ul>
       {% for icon in site.social-icons %}
-          <li><a href="{{ icon.link }}" target="_blank" class="social-icon"><i class="{{ icon.icon-path }}" aria-hidden="true"></i></a></li>
+          <li><a href="{{ icon.link }}" target="_blank"><i class="{{ icon.icon-path }}" aria-hidden="true"></i></a></li>
       {% endfor %}
     </ul>
   </div>

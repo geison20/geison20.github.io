@@ -13,16 +13,17 @@ markdown: kramdown
 excerpt_separator: <!-- leia-mais --> # usado para quebar a description inicial do post
 timezone: America/Sao_Paulo
 
-# Assets directory
-css: /static/css/main.css
-css-min: /static/css/main.min.css
+# Assets directory - USANDO SASS
+css: /static/css/style.css
+css-min: /static/css/style.min.css
+
 image: /static/image/
 
 # Gems
 gems: [jekyll-paginate]
 
 #pagination
-paginate: 5
+paginate: 4
 paginate_path: "/posts/pagina:num/"
 
 # header configuration

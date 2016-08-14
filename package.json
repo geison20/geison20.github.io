@@ -1,0 +1,27 @@
+{
+  "name": "geison20.github.io",
+  "version": "1.0.0",
+  "description": "my personal blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geison20/geison20.github.io.git"
+  },
+  "keywords": [
+    "blog",
+    "geisson",
+    "personal"
+  ],
+  "author": "Geisson Machado <geisonnm@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geison20/geison20.github.io/issues"
+  },
+  "homepage": "https://github.com/geison20/geison20.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

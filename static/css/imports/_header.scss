@@ -1,0 +1,66 @@
+// SASS para o header
+
+$background-color-header: #2c3e50;
+$white: #fff;
+
+.content-1 {
+  @extend .font-lato;
+
+  display: flex;
+  flex-flow: column wrap;
+  order: 1;
+  background-color: $background-color-header;
+
+  .combo-perfil {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 25px;
+    color: $white;
+
+    img {
+      width: 100%;
+      max-width: 100px;
+      border-radius: 100%;
+      &:hover {
+        box-shadow: 0 0 20px rgba(255,255,255,0.2);
+        transition: box-shadow 0.5s;
+      }
+    }
+    h1 {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+    ul li {
+      display: inline-block;
+      margin: 5px;
+      list-style: none;
+      a {
+        color: $white;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px){
+  .content-1 {
+    flex: 1 1 200px;
+    min-height: 100vh;
+    padding-top: 150px;
+
+    .combo-perfil {
+      padding: 0;
+      
+      img {
+        max-width: 150px;
+      }
+    }
+
+  }
+}

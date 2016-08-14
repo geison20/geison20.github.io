@@ -1,0 +1,37 @@
+@import "imports/selector";
+
+.font-lato {
+  font-family: 'Lato', arial, sans-serif;
+}
+.button-pagination {
+  background-color: #ddd;
+  padding: 7px;
+  border-radius: 100px;
+  color: #817c7c;
+  &:hover {
+    background-color: #2ca6cb;
+    padding: 7px;
+    border-radius: 100px;
+    color: #fff;
+    transition: background-color 0.3s ease-out;
+  }
+}
+
+// container de comando.
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+
+  //import header em sass
+  @import "imports/header";
+
+  // import content posts
+  @import "imports/posts";
+}
+
+@media screen and (min-width: 768px){
+  .container {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+}
