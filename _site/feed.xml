@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description>Visite meu blog pessoal cheio de notícias, artigos e fontes relacionados a desenvolvimento de softwares e muito mais!</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 14 Aug 2016 21:55:28 -0300</pubDate>
-    <lastBuildDate>Sun, 14 Aug 2016 21:55:28 -0300</lastBuildDate>
+    <link>http://geissonmachado.com.br/</link>
+    <atom:link href="http://geissonmachado.com.br/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 14 Aug 2016 23:17:21 -0300</pubDate>
+    <lastBuildDate>Sun, 14 Aug 2016 23:17:21 -0300</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -22,8 +22,8 @@ Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iacu
 &lt;p&gt;Mé faiz elementum girarzis, nisi eros vermeio. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Quem num gosta di mé, boa gente num é. Mais vale um bebadis conhecidiss, que um alcoolatra anonimiss.&lt;/p&gt;
 </description>
         <pubDate>Fri, 20 May 2016 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/mobile/2016/05/20/terceiro-teste.html</link>
-        <guid isPermaLink="true">http://localhost:4000/mobile/2016/05/20/terceiro-teste.html</guid>
+        <link>http://geissonmachado.com.br/mobile/2016/05/20/terceiro-teste.html</link>
+        <guid isPermaLink="true">http://geissonmachado.com.br/mobile/2016/05/20/terceiro-teste.html</guid>
         
         <category>Code</category>
         
@@ -46,8 +46,8 @@ Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iacu
 &lt;!-- leia-mais --&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 03 May 2016 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/code/2016/05/03/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/code/2016/05/03/welcome-to-jekyll.html</guid>
+        <link>http://geissonmachado.com.br/code/2016/05/03/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://geissonmachado.com.br/code/2016/05/03/welcome-to-jekyll.html</guid>
         
         <category>Code</category>
         
@@ -70,8 +70,8 @@ Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iacu
 &lt;!-- leia-mais --&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 03 May 2016 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/code/2016/05/03/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/code/2016/05/03/welcome-to-jekyll.html</guid>
+        <link>http://geissonmachado.com.br/code/2016/05/03/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://geissonmachado.com.br/code/2016/05/03/welcome-to-jekyll.html</guid>
         
         <category>Code</category>
         
@@ -97,8 +97,8 @@ Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iacu
 Ta deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.” Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Quem manda na minha terra sou Euzis! Casamentiss faiz malandris se pirulitá.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Feb 2016 00:00:00 -0200</pubDate>
-        <link>http://localhost:4000/code/2016/02/01/primeiro-teste.html</link>
-        <guid isPermaLink="true">http://localhost:4000/code/2016/02/01/primeiro-teste.html</guid>
+        <link>http://geissonmachado.com.br/code/2016/02/01/primeiro-teste.html</link>
+        <guid isPermaLink="true">http://geissonmachado.com.br/code/2016/02/01/primeiro-teste.html</guid>
         
         <category>Code</category>
         
@@ -124,8 +124,8 @@ Ta deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.” Praesent 
 Ta deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.” Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Quem manda na minha terra sou Euzis! Casamentiss faiz malandris se pirulitá.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Feb 2016 00:00:00 -0200</pubDate>
-        <link>http://localhost:4000/code/2016/02/01/primeiro-teste.html</link>
-        <guid isPermaLink="true">http://localhost:4000/code/2016/02/01/primeiro-teste.html</guid>
+        <link>http://geissonmachado.com.br/code/2016/02/01/primeiro-teste.html</link>
+        <guid isPermaLink="true">http://geissonmachado.com.br/code/2016/02/01/primeiro-teste.html</guid>
         
         <category>Code</category>
         
@@ -155,8 +155,8 @@ Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iacu
 &lt;p&gt;Mé faiz elementum girarzis, nisi eros vermeio. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Quem num gosta di mé, boa gente num é. Mais vale um bebadis conhecidiss, que um alcoolatra anonimiss.&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Jan 2016 00:00:00 -0200</pubDate>
-        <link>http://localhost:4000/desktop/2016/01/01/segundo-teste.html</link>
-        <guid isPermaLink="true">http://localhost:4000/desktop/2016/01/01/segundo-teste.html</guid>
+        <link>http://geissonmachado.com.br/desktop/2016/01/01/segundo-teste.html</link>
+        <guid isPermaLink="true">http://geissonmachado.com.br/desktop/2016/01/01/segundo-teste.html</guid>
         
         <category>Code</category>
         
