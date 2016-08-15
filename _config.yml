@@ -15,7 +15,7 @@ timezone: America/Sao_Paulo
 
 # Assets directory - USANDO SASS
 css: /static/css/style.css
-css-min: /static/css/style.min.css
+css-min: /static/css/final/style.css
 
 image: /static/image/
 
