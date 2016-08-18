@@ -1,0 +1,67 @@
+---
+layout: post
+title:  "ECMAScript 2015 (ES6) | let e const"
+date:   2016-08-18
+author: Geisson Machado Antunes
+categories: Code
+tags:
+  - Code
+  - desenvolvimento
+  - conceito
+  - lorem Ipsum
+  - outras coisas
+---
+<p>
+  A nova versão do <strong><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Suporte_ao_ECMAScript_6_na_Mozilla" target="_blank">JavaScript | ECMAScript (ES6)</a></strong> implementa novas features na linguagem, hoje vamos falar um pouco de let e const.
+</p>
+<!-- leia-mais -->
+
+<h1>let:</h1>
+<p>
+  O <strong>let</strong> permite que você declare uma variavel limitando seu escopo interno diferente de <strong>var</strong> que usa o escopo global.
+
+  <h3>exemplo de let</h3>
+
+  {% highlight javascript linenos %}
+  #!javascript/app.js
+
+  var a = 5;
+
+  if (a === 5) {
+    console.log(a);
+
+    let a = 10;
+
+  }
+
+  console.log(a);
+  {% endhighlight %}
+
+</p>
+<p>
+  Nesse exemplo simples eu declaro uma variável a = 5 inicialmente, logo após verifico se a === 5 (inclusive o tipo), entrando no bloco condicional (true) eu atribuo agora a váriavel let a = 10, faço um console.log(a) dentro do bloco e outro fora,
+  isso ocorre por que <strong>let</strong> está declarada dentro do escopo de bloco.
+</p>
+
+<h1>conts:</h1>
+<p>
+  Esta declaração cria uma constante que pode pertencer ao escopo global ou local de uma função, o valor de uma constante não pode ser alterado via re-atribuição, e uma constante não pode ser redeclarada. É obrigatório que um valor seja atribuido à constante em sua declaração.
+</p>
+<h3>exemplo de const</h3>
+{% highlight javascript linenos %}
+#!javascript/app.js
+
+  const cpf = 123456789;
+
+  console.log(cpf);
+
+  cpf = 987654321;
+
+  var cpf = 987654321;
+
+  console.log(cpf);
+{% endhighlight %}
+
+<p>
+  Por hoje é isso, vou continuar melhorando o conteúdo e trazendo novas features do <strong><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Suporte_ao_ECMAScript_6_na_Mozilla" target="_blank">JavaScript | ECMAScript (ES6)</a></strong> .
+</p>
