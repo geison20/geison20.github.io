@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <description>Visite meu blog pessoal cheio de notícias, artigos e fontes relacionados a desenvolvimento de softwares e muito mais!</description>
+    <description>Blog pessoal cheio de notícias, artigos e fontes relacionados a desenvolvimento de softwares e muito mais!</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Aug 2016 20:47:04 -0300</pubDate>
-    <lastBuildDate>Thu, 18 Aug 2016 20:47:04 -0300</lastBuildDate>
+    <pubDate>Thu, 18 Aug 2016 21:32:39 -0300</pubDate>
+    <lastBuildDate>Thu, 18 Aug 2016 21:32:39 -0300</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -88,8 +88,8 @@
 &lt;/p&gt;
 </description>
         <pubDate>Thu, 18 Aug 2016 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/code/2016/08/18/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/code/2016/08/18/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/code/2016/08/18/ecmascript-2015.html</link>
+        <guid isPermaLink="true">http://localhost:4000/code/2016/08/18/ecmascript-2015.html</guid>
         
         <category>Code</category>
         

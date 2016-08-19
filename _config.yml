@@ -2,11 +2,13 @@
 #SEO -meta
 language: pt-br
 title-site: Blog de tecnologia e afins
+description: Blog pessoal cheio de notícias, artigos e fontes relacionados a desenvolvimento de softwares e muito mais!
 author: Gêisson Machado Antunes
 email: geisonnm@hotmail.com
-description: Visite meu blog pessoal cheio de notícias, artigos e fontes relacionados a desenvolvimento de softwares e muito mais!
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: ""
 url:   "http://geissonmachado.com.br" #"http://localhost:4000" "http://geissonmachado.com.br" # the base hostname & protocol for your site
+
+google-analytics: UA-82745983-1
 
 # Build settings
 markdown: kramdown

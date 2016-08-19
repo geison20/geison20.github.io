@@ -1,1 +1,1 @@
-console.log("OK");var app=function(){return console.log("ok more..")};
+loadCSS("{{ site.css | prepend: site.url }}");
