@@ -1,1 +1,1 @@
-loadCSS("{{ site.css | prepend: site.url }}");
+console.log("OK");var app=function(){return console.log("ok more..")};
